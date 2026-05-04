@@ -1,4 +1,4 @@
-# 🚌 Where Is My Bus — Kottayam
+# 🚌 Where Is My Bus
 
 Real-time bus tracking web app for Kottayam routes. Drivers share their phone location → passengers see live bus positions and ETAs.
 
