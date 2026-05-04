@@ -1,31 +1,22 @@
-# =========================
-# ENV FILES (CRITICAL)
-# =========================
+
 # ENV FILES
 **/.env
 
-# =========================
-# PYTHON
-# =========================
+
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.sqlite3
 
-# Virtual environments (if you create one later)
 venv/
 env/
 
-# =========================
-# DATABASE (DO NOT COMMIT)
-# =========================
+
 backend/whereismybus.db
 *.db
 
-# =========================
-# NODE / FRONTEND
-# =========================
+
 frontend/node_modules/
 node_modules/
 
@@ -33,26 +24,17 @@ node_modules/
 frontend/build/
 dist/
 
-# =========================
-# LOGS & TEMP FILES
-# =========================
+
 *.log
 *.tmp
 *.swp
 
-# =========================
-# OS FILES
-# =========================
+
 .DS_Store
 Thumbs.db
 
-# =========================
-# VSCODE (OPTIONAL)
-# =========================
+
 .vscode/
 
-# =========================
-# TEST / CACHE
-# =========================
 .pytest_cache/
 coverage/
