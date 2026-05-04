@@ -6,7 +6,7 @@ Real-time bus tracking web app for Kottayam routes. Drivers share their phone lo
 - **Frontend**: React 18 + React Router
 - **Backend**: Python FastAPI
 - **Database**: SQLite (file-based, no setup needed)
-- **Maps**: Google Maps Embed API (free tier)
+- **Maps**: Google Maps Embed API/Directions API/Places API (free tier)
 
 ---
 
