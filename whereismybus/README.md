@@ -62,6 +62,7 @@ uvicorn main:uvicorn --reload --port 8000
 
 The SQLite database (`whereismybus.db`) is created automatically on first run.
 It seeds 5 real Kottayam bus routes + demo accounts.
+You may delete it for if not required.
 
 ### Step 2 — Google Maps API Key (optional but recommended)
 
@@ -74,6 +75,7 @@ It seeds 5 real Kottayam bus routes + demo accounts.
 cp .env.example .env
 # Edit .env → add your key
 ```
+Do this for both backend and frontend env.example
 
 The app works without the key (shows a placeholder map) — add it when ready.
 
