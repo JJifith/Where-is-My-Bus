@@ -29,7 +29,7 @@ export default function Login() {
         <div className="login-logo">
           <div className="login-logo-icon">🚌</div>
           <div className="login-logo-title">Where Is My Bus</div>
-          <div className="login-logo-sub">Kottayam Bus Tracking System</div>
+          <div className="login-logo-sub">Bus Tracking System</div>
         </div>
 
         {error && <div className="error-msg">{error}</div>}
