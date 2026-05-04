@@ -24,7 +24,7 @@ export default function PassengerHome() {
         <div style={{ textAlign: "center", marginBottom: 48 }}>
           <div style={{ fontSize: 72, marginBottom: 16, filter: "drop-shadow(0 4px 12px rgba(0,0,0,0.3))" }}>🚌</div>
           <h1 style={{ fontSize: 36, fontWeight: 800, color: "white", letterSpacing: -1, marginBottom: 10 }}>Where Is My Bus?</h1>
-          <p style={{ color: "rgba(255,255,255,0.7)", fontSize: 16, marginBottom: 8 }}>Real-time bus tracking for Kottayam routes</p>
+          <p style={{ color: "rgba(255,255,255,0.7)", fontSize: 16, marginBottom: 8 }}>Real-time bus tracking </p>
           {liveCount > 0 && (
             <div style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "rgba(16,185,129,0.2)", border: "1px solid rgba(16,185,129,0.4)", borderRadius: 20, padding: "6px 16px", marginTop: 8 }}>
               <span style={{ width: 8, height: 8, background: "#10b981", borderRadius: "50%", display: "inline-block", animation: "pulse 1.5s infinite" }}></span>
